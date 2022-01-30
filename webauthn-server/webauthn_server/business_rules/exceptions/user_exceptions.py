@@ -1,0 +1,2 @@
+class EUserEmailAlreadyExists(Exception):
+    pass

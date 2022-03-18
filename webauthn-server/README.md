@@ -1,7 +1,7 @@
 # WebAuthn Demo Server
 
 - WebAuthn demonstration
-- Clean Architecutre demonstration
+- Clean Architecture demonstration
 
 to run:
 

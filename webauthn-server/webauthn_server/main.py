@@ -10,7 +10,7 @@ from webauthn_server.entities.user.repository import IUserRepository
 from .entities.user.schema import UserSchema
 
 # for fast api
-from webauthn_server.adapters.endpoints import api_fastapi
+from webauthn_server.adapters.endpoints import rest_fastapi
 
 def configure(binder):
     binder.bind(Session, to=session_scope)
@@ -19,4 +19,4 @@ def configure(binder):
 
 injector = Injector([configure])
 
-app = api_fastapi.build(injector=injector)
+app = rest_fastapi.build(injector=injector)

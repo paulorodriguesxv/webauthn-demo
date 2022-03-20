@@ -1,7 +1,7 @@
 from injector import Injector
 from fastapi import FastAPI
 
-from webauthn_server.adapters.endpoints.api_fastapi.controllers import user_controller
+from webauthn_server.adapters.endpoints.rest_fastapi.controllers import user_controller
 
 
 
